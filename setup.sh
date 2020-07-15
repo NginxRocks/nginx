@@ -6,7 +6,7 @@ rm /etc/nginx/sites-enabled/*
 # Put our config files in /opt
 mkdir -p /opt/
 cd /opt/
-git clone https://github.com/metaclassing/nginx.git
+git clone https://github.com/nginxrocks/nginx.git
 
 # Generate a unique diffie-hellman initialization prime & grab our crypto files.
 #openssl dhparam -out /etc/ssl/private/dhparams.pem 2048
